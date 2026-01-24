@@ -8,6 +8,7 @@ class ClassClick extends Component {
    
     return (
       <div>
+        <h2>Event Handling in Class Component</h2>
         <button onClick={this.clickHandler}>Class-Click</button>
       </div>
     )

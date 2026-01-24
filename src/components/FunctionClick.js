@@ -6,6 +6,7 @@ function FunctionClick() {
   }
   return (
     <div>
+      <h2>Event Handling</h2>
       <button onClick={clickHandler}>Function-Click</button>
     </div>
   )

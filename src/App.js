@@ -1,5 +1,7 @@
 // import logo from './logo.svg';
 import './App.css';
+// import NameList from './components/NameList';
+// import ConditionalRender from './components/ConditionalRender';
 // import Greet from './components/Greet';
 // import MyComponent from './components/Greet';
 // import {Greet} from './components/Greet';
@@ -13,9 +15,17 @@ import './App.css';
 // import FunctionClick from './components/FunctionClick';
 // import ClassClick from './components/ClassClick';
 // import EventBind from './components/EventBind';
+// import ParentComponent from './components/ParentComponent';
+// import Stylesheet from './components/Stylesheet';
+// import Inline from './components/Inline'
+// import styles from '../src/CSSstyle.module.css'
+import "../src/CSSstyle.css"
 function App() { 
   return (
     <div className="App">
+      {/* <NameList />  */}
+      {/* <ConditionalRender /> */}
+      {/* <ParentComponent /> */}
       {/* <Greet/> */}
       {/* <MyComponent/> */}
      {/* <Welcome/> */}
@@ -28,9 +38,13 @@ function App() {
 {/* <Message></Message> */}
 {/* <Counter></Counter> */}
 {/* <TodoApp></TodoApp> */}
-{/* <FunctionClick></FunctionClick>
-<ClassClick /> */}
+{/* <FunctionClick></FunctionClick> */}
+{/* <ClassClick /> */}
 {/* <EventBind></EventBind> */}
+{/* <Stylesheet primary={true} /> */}
+{/* <Inline /> */}
+{/* <h2 className='error'>CSS Styling</h2> */}
+{/* <h2 className={styles.success}>CSS Modules Styling</h2> */}
     </div>
   );
 }
