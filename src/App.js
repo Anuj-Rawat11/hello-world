@@ -19,6 +19,7 @@ import './App.css';
 // import Stylesheet from './components/Stylesheet';
 // import Inline from './components/Inline'
 // import styles from '../src/CSSstyle.module.css'
+// import FormHandling from './components/FormHandling'
 import "../src/CSSstyle.css"
 function App() { 
   return (
@@ -45,6 +46,7 @@ function App() {
 {/* <Inline /> */}
 {/* <h2 className='error'>CSS Styling</h2> */}
 {/* <h2 className={styles.success}>CSS Modules Styling</h2> */}
+{/* <FormHandling /> */}
     </div>
   );
 }
